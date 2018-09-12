@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import App1 from '../App1/App1'
 import Person from '../Person/Person'
 
 class App extends Component {
@@ -37,9 +36,6 @@ nameChangeHandler = (event) => {
     return (
       <div className="App">
         <h1 className="App-title">Welcome to React</h1>
-
-        <App1 />
-
         <button onClick={ () => this.switchNameHandler('Atul Soman!') }>Switch Name</button>
              
         <Person 
