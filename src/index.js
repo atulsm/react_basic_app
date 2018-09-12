@@ -6,8 +6,8 @@ import Assign1 from './Assign1/App';
 
 import registerServiceWorker from './registerServiceWorker';
 
-//ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<Assign1 />, document.getElementById('root'));
+//ReactDOM.render(<Assign1 />, document.getElementById('root'));
 
 registerServiceWorker();
